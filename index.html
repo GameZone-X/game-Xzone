@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#090b14">
+  <title>Zone Game — Recharge Free Fire & PUBG</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="brand" href="#"><span class="brand-mark">ZG</span><span>ZONE<span>GAME</span></span></a>
+  <nav><a href="#freefire">Free Fire</a><a href="#pubg">PUBG</a><a href="#how">Comment ça marche</a></nav>
+  <a class="support" href="#order">Commander</a>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-copy">
+      <div class="badge">⚡ LIVRAISON RAPIDE • UID SEULEMENT</div>
+      <h1>Recharge ton jeu.<br><em>Joue sans attendre.</em></h1>
+      <p>Diamants Free Fire MENA et UC PUBG. Commande simple, paiement local et traitement rapide.</p>
+      <div class="hero-actions">
+        <a class="btn primary" href="#freefire">Voir les offres</a>
+        <a class="btn ghost" href="#how">Comment ça marche ?</a>
+      </div>
+      <div class="trust"><span>✓ UID uniquement</span><span>✓ Pas de mot de passe</span><span>✓ Support rapide</span></div>
+    </div>
+    <div class="hero-card">
+      <div class="orb"></div>
+      <div class="mini-card">
+        <span>🔥 Free Fire MENA</span><strong>110 💎</strong><b>4 450 Ar</b>
+      </div>
+      <div class="mini-card second">
+        <span>🎯 Commande</span><strong>En traitement</strong><b>UID vérifié ✓</b>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" id="freefire">
+    <div class="section-head"><div><span class="eyebrow">FREE FIRE</span><h2>Diamants MENA</h2></div><span class="region">MENA</span></div>
+    <div class="products">
+      <button class="product" data-game="Free Fire MENA" data-pack="110 Diamants" data-price="4450"><span class="pack">110</span><span><b>110 Diamants</b><small>Free Fire MENA</small></span><strong>4 450 Ar</strong></button>
+      <button class="product" data-game="Free Fire MENA" data-pack="231 Diamants" data-price="8900"><span class="pack">231</span><span><b>231 Diamants</b><small>Free Fire MENA</small></span><strong>8 900 Ar</strong></button>
+      <button class="product" data-game="Free Fire MENA" data-pack="583 Diamants" data-price="22300"><span class="pack">583</span><span><b>583 Diamants</b><small>Free Fire MENA</small></span><strong>22 300 Ar</strong></button>
+      <button class="product" data-game="Free Fire MENA" data-pack="1 188 Diamants" data-price="44500"><span class="pack">1188</span><span><b>1 188 Diamants</b><small>Free Fire MENA</small></span><strong>44 500 Ar</strong></button>
+      <button class="product" data-game="Free Fire MENA" data-pack="2 420 Diamants" data-price="88500"><span class="pack">2420</span><span><b>2 420 Diamants</b><small>Free Fire MENA</small></span><strong>88 500 Ar</strong></button>
+    </div>
+  </section>
+
+  <section class="section" id="pubg">
+    <div class="section-head"><div><span class="eyebrow">PUBG MOBILE</span><h2>UC Europe</h2></div><span class="region">EUROPE</span></div>
+    <div class="notice"><strong>🎯 Catalogue PUBG</strong><p>Ajoute ici tes prix PUBG Europe dès que tu les as. Les prix sont modifiables dans <code>app.js</code>.</p></div>
+  </section>
+
+  <section class="section order-section" id="order">
+    <div class="section-head"><div><span class="eyebrow">COMMANDE</span><h2>Finaliser une recharge</h2></div></div>
+    <div class="order-grid">
+      <form id="orderForm" class="form-card">
+        <div class="selected" id="selectedBox"><span>Produit sélectionné</span><strong id="selectedProduct">Choisis une offre ci-dessus</strong><b id="selectedPrice">—</b></div>
+        <label>UID / ID joueur<input id="uid" required placeholder="Ex : 1234567890"></label>
+        <label>Pseudo (facultatif)<input id="nickname" placeholder="Pour vérification"></label>
+        <label>Nom du client<input id="customer" required placeholder="Votre nom"></label>
+        <label>Téléphone / WhatsApp<input id="phone" required placeholder="03x xx xxx xx"></label>
+        <label>Moyen de paiement
+          <select id="payment"><option>MVola / USSD</option><option>Airtel Money</option><option>Orange Money</option></select>
+        </label>
+        <label>Référence / preuve de paiement<input id="proof" placeholder="Référence de transaction (si disponible)"></label>
+        <button class="btn primary full" type="submit">Préparer ma commande →</button>
+        <p class="form-note">Après validation, les détails sont préparés pour WhatsApp. La recharge est effectuée après vérification du paiement.</p>
+      </form>
+
+      <aside class="payment-card">
+        <span class="eyebrow">PAIEMENT RAPIDE</span>
+        <h3>MVola / USSD</h3>
+        <div class="ussd">*111*1*2*0381093212*<span>MONTANT</span>*2*0*#</div>
+        <p>Remplace <b>MONTANT</b> par le montant exact de ta commande.</p>
+        <div class="steps"><div><b>01</b><span>Choisis tes diamants</span></div><div><b>02</b><span>Envoie le paiement</span></div><div><b>03</b><span>Envoie ta commande</span></div><div><b>04</b><span>Recharge après vérification</span></div></div>
+      </aside>
+    </div>
+  </section>
+
+  <section class="section" id="how">
+    <div class="section-head"><div><span class="eyebrow">SIMPLE & RAPIDE</span><h2>Comment ça marche ?</h2></div></div>
+    <div class="how"><div><b>1</b><h3>Choisis</h3><p>Sélectionne ton jeu et ton pack.</p></div><div><b>2</b><h3>Paye</h3><p>Utilise le moyen de paiement indiqué.</p></div><div><b>3</b><h3>Envoie</h3><p>Donne uniquement ton UID et tes informations de commande.</p></div><div><b>4</b><h3>Reçois</h3><p>La commande est traitée puis confirmée.</p></div></div>
+  </section>
+</main>
+
+<footer><div class="brand"><span class="brand-mark">ZG</span><span>ZONE<span>GAME</span></span></div><p>Recharge gaming • Madagascar</p><small>© 2026 ZoneGame. Tous droits réservés.</small></footer>
+<div id="toast" class="toast"></div>
+<script src="app.js"></script>
+</body>
+</html>
